@@ -1,0 +1,28 @@
+.rs-row{
+    display:flex;
+    flex-direction: column;
+    padding:20px 0 30px 0;
+    border-bottom: 1px solid lightgray;
+}
+.rs-row :nth-child(1){
+    width: 100%;
+}
+
+.rs-input{
+    width: 100%;
+}
+.rs-tooltip[class*=placement-top]{
+    width:50px;
+    text-align: center;
+}
+.rs-slider-progress-bar{
+background-color:black!important;
+}
+.rs-slider-handle:before{
+    border:2px solid black !important;
+    background-color: black;
+}
+.active{
+    font-weight: bolder!important;
+    color:black!important;
+}
